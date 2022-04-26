@@ -4,4 +4,4 @@ A simple game of snakes and ladders where it'll ask the user for the number of p
 
 Board based on the SnakeNLadders.png
 
-![alt text](https://raw.githubusercontent.com/2xyu/SnakeNLadders/master/SnakeNLadders.png)
+![alt text](https://raw.githubusercontent.com/2xyu/SnakesNLadders/master/SnakeNLadders.png)
