@@ -21,7 +21,7 @@ public class SnakeNLadder {
             int playerIndex = 0;
             boolean thereIsWinner;
 
-            System.out.print("\nPlease enter the number of players: ");
+            System.out.print("\nPlease enter a positive number of players: ");
 
             while (in.hasNextLine()) {
                 String numTemp = in.nextLine().trim();
@@ -32,6 +32,9 @@ public class SnakeNLadder {
                         continue;
                     }
                     amountOfPlayer = Integer.parseInt(numTemp);
+                    if (amountOfPlayer <= 0){
+                        throw new Exception();
+                    }
                     break;
                 } catch (Exception e) {
                     System.out.print("\nPlease enter a proper amount of players: ");
